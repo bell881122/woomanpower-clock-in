@@ -1,0 +1,42 @@
+// global
+body{
+    margin:0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.calendar {
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    grid-auto-flow: column;
+    text-align: center;
+    margin-left: 500px;
+
+    .calendar-item {
+        border: 1px solid black;
+        width: 45px;
+        padding: 5px 0;
+
+        &.active {
+            background: rgb(255, 162, 162);
+        }
+    }
+
+
+    //     width: 100%;
+    //         display: flex;
+    //         // overflow-x: scroll;
+    //     .month {
+    //         width: 100%;
+    //         display: flex;
+    //         text-align: center;
+
+    //         .calendar-item {
+    //             width: 500px;
+    //             margin: 5px;
+    //         }
+    //     }
+}

@@ -1,9 +1,10 @@
-import Button from '@mui/material/Button';
+import React from 'react';
+import Calendar from 'src/component/Calendar';
 function App() {
   return (
     <div>
-      <Button variant="contained">Contained</Button>
-    </div>
+      <Calendar/>
+    </div >
   );
 }
 
